@@ -53,8 +53,8 @@
    Simplesmente no diretório raiz do manager, rode o seguinte comando: <br>
    `./bash_git_manager.sh`
 
-   Ele vai te pedir um título da PR e um Body:
+   Ele vai te pedir um título da PR e um Body: <br>
    <img src="./imagens_readme/exemplo_mensagens.png"/>
 
-   Depois que vc inputar o título e o body, ele vai te devolver as urls das prs abertas:
+   Depois que vc inputar o título e o body, ele vai te devolver as urls das prs abertas: <br>
    <img src="./imagens_readme/pr_abertas.png"/>
