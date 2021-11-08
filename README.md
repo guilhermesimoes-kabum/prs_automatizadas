@@ -42,7 +42,7 @@
    O name que deve ser inputado nas linhas mensionadas é o `guilhermesimoes-kabum`
 
    antes:
-   `gh pr create --title "$titulo_pr" --body "$body_da_pr_master_e_stg" --base stg --head <seu_nome>:$branch_name; `
+   `gh pr create --title "$titulo_pr" --body "$body_da_pr_master_e_stg" --base stg --head <seu_usuario>:$branch_name; `
    depois:
    `gh pr create --title "$titulo_pr" --body "$body_da_pr_master_e_stg" --base stg --head guilhermesimoes-kabum:$branch_name; `
 
