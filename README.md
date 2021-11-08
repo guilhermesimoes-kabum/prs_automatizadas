@@ -42,6 +42,7 @@
 
    antes: <br>
    `gh pr create --title "$titulo_pr" --body "$body_da_pr_master_e_stg" --base stg --head <seu_usuario>:$branch_name; ` <br>
+
    depois: <br>
    `gh pr create --title "$titulo_pr" --body "$body_da_pr_master_e_stg" --base stg --head guilhermesimoes-kabum:$branch_name; ` <br>
 
@@ -53,3 +54,7 @@
    `./bash_git_manager.sh`
 
    Ele vai te pedir um título da PR e um Body:
+   <img src="./imagens_readme/exemplo_mensagens.png"/>
+
+   Depois que vc inputar o título e o body, ele vai te devolver as urls das prs abertas:
+   <img src="./imagens_readme/pr_abertas.png"/>
