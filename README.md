@@ -27,7 +27,7 @@
 
 ## Inputar os seus dados no script
 ### TOKEN
-   Na linha 18 coloque seu token do github no lugar de <seu_token> <br>
+   Na linha 13 coloque seu token do github no lugar de <seu_token> <br>
    antes: <br>
    `gh auth login --with-token <seu_token>` <br>
    depois: <br>
@@ -35,23 +35,22 @@
 
 
 ### Alterar o nome do seu usuário do github
-   Na linha 19, 23 e 24 deve ser inputado o seu nome de usuário <br>
+   Na linha 9 deve ser inputado o seu nome de usuário <br>
    Esse nome de usuário é o mesmo que aparece na sua url do github, por exemplo: <br>
    `https://github.com/guilhermesimoes-kabum/` <br>
-   O name que deve ser inputado nas linhas mensionadas é o `guilhermesimoes-kabum` <br>
+   O nome que deve ser inputado nas linhas mensionadas é o `guilhermesimoes-kabum` <br>
 
    antes: <br>
-   `gh pr create --title "$titulo_pr" --body "$body_da_pr_master_e_stg" --base stg --head <seu_usuario>:$branch_name; ` <br>
+   `user_name=<seu_nome>` <br>
 
    depois: <br>
-   `gh pr create --title "$titulo_pr" --body "$body_da_pr_master_e_stg" --base stg --head guilhermesimoes-kabum:$branch_name; ` <br>
-
-   obs: isso deve ser feito na linha 19, 23 e 24 <br>
-
+   `user_name='guilhermesimoes-kabum'` <br>
 
 ## Como usar
    Simplesmente no diretório raiz do manager, rode o seguinte comando: <br>
    `./bash_git_manager.sh`
+
+   Ele vai rodar os testes do sistema. Caso algum falhe miseravelmente, ele não vai deixar você abrir a PR 
 
    Ele vai te pedir um título da PR e um Body: <br>
    <img src="./imagens_readme/exemplo_mensagens.png"/>
