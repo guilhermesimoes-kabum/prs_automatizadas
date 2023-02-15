@@ -3,8 +3,11 @@
 # matheus
 # luis
 # ana
+# carol
 #
-echo "titulo da pr: "
+#
+#
+echo "titulo da pr: " 
 read titulo_pr
 
 echo "body da pr: "
