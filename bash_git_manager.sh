@@ -1,6 +1,10 @@
 #!/bin/bash
+#
+# matheus
+#
+#
+#
 
->>>>>>> parent of 9003e2f (saadlksahjfjdsahfldkjshfasdjafsh)
 echo "titulo da pr: "
 read titulo_pr
 
