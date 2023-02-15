@@ -3,7 +3,6 @@
 # matheus
 # luis
 # ana
-# carol
 #
 #
 #
