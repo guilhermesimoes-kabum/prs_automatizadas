@@ -7,6 +7,8 @@
 #
 #
 #
+#
+#
 echo "titulo da pr: " 
 read titulo_pr
 
